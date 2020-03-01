@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ThumbnailCollectionViewCell" customModule="ReusableAttachmentsView" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="155" height="135"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="155" height="135"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Hk1-bU-lb0">
+                        <rect key="frame" x="0.0" y="1" width="155" height="119.5"/>
+                        <color key="tintColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="122" id="wba-at-WNP"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cqy-xi-tnY">
+                        <rect key="frame" x="115" y="0.0" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="YWD-el-626"/>
+                            <constraint firstAttribute="height" constant="40" id="i9J-JP-1jw"/>
+                        </constraints>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <state key="normal" image="xmark.circle.fill" catalog="system">
+                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="filename.jpg" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P5Z-4f-ADS">
+                        <rect key="frame" x="0.0" y="122" width="155" height="13"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Hk1-bU-lb0" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="7BI-hc-822"/>
+                <constraint firstItem="P5Z-4f-ADS" firstAttribute="top" secondItem="Hk1-bU-lb0" secondAttribute="bottom" id="Jlz-oI-4Xi"/>
+                <constraint firstItem="P5Z-4f-ADS" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="KmP-X5-r2h"/>
+                <constraint firstAttribute="trailing" secondItem="P5Z-4f-ADS" secondAttribute="trailing" id="N5Y-fs-Bp5"/>
+                <constraint firstAttribute="bottom" secondItem="P5Z-4f-ADS" secondAttribute="bottom" id="QBp-nk-gTa"/>
+                <constraint firstAttribute="trailing" secondItem="Cqy-xi-tnY" secondAttribute="trailing" id="V6x-FW-iuK"/>
+                <constraint firstItem="Cqy-xi-tnY" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="WIl-gi-lMF"/>
+                <constraint firstAttribute="trailing" secondItem="Hk1-bU-lb0" secondAttribute="trailing" id="amp-et-Ows"/>
+                <constraint firstItem="Hk1-bU-lb0" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="quc-Z3-xh8"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <connections>
+                <outlet property="filenameLabel" destination="P5Z-4f-ADS" id="2u8-nm-HVD"/>
+                <outlet property="removeButton" destination="Cqy-xi-tnY" id="fXh-JE-CsE"/>
+                <outlet property="thumbnailImageView" destination="Hk1-bU-lb0" id="Psw-qS-T6n"/>
+            </connections>
+            <point key="canvasLocation" x="136.95652173913044" y="143.63839285714286"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="photo" catalog="system" width="64" height="46"/>
+        <image name="xmark.circle.fill" catalog="system" width="64" height="60"/>
+    </resources>
+</document>

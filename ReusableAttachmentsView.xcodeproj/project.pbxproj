@@ -10,20 +10,47 @@
 		51B8114D240A5A4B00A46386 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B8114C240A5A4B00A46386 /* AppDelegate.swift */; };
 		51B8114F240A5A4B00A46386 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B8114E240A5A4B00A46386 /* SceneDelegate.swift */; };
 		51B81151240A5A4B00A46386 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B81150240A5A4B00A46386 /* ViewController.swift */; };
-		51B81154240A5A4B00A46386 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51B81152240A5A4B00A46386 /* Main.storyboard */; };
 		51B81156240A5A4F00A46386 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51B81155240A5A4F00A46386 /* Assets.xcassets */; };
-		51B81159240A5A4F00A46386 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51B81157240A5A4F00A46386 /* LaunchScreen.storyboard */; };
+		51B81162240A5C6400A46386 /* AttachmentsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B81161240A5C6400A46386 /* AttachmentsListView.swift */; };
+		51B81164240A5C8200A46386 /* AttachmentsListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51B81163240A5C8200A46386 /* AttachmentsListView.xib */; };
+		51B81167240A5CF500A46386 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B81166240A5CF500A46386 /* ModalViewController.swift */; };
+		51B81170240A60E200A46386 /* ThumbnailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51B8116E240A60E200A46386 /* ThumbnailCollectionViewCell.xib */; };
+		51B81171240A60E200A46386 /* ThumbnailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B8116F240A60E200A46386 /* ThumbnailCollectionViewCell.swift */; };
+		51B81176240A62FE00A46386 /* AddAttachmentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B81174240A62FE00A46386 /* AddAttachmentCollectionViewCell.swift */; };
+		51B81177240A62FE00A46386 /* AddAttachmentCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51B81175240A62FE00A46386 /* AddAttachmentCollectionViewCell.xib */; };
+		51B8117A240A67E000A46386 /* UICollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B81179240A67E000A46386 /* UICollectionViewExtension.swift */; };
+		51B8117C240A680300A46386 /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B8117B240A680300A46386 /* NSObjectExtension.swift */; };
+		51B8117E240A69E300A46386 /* Attachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B8117D240A69E300A46386 /* Attachment.swift */; };
+		51B81184240A6BEF00A46386 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51B81152240A5A4B00A46386 /* Main.storyboard */; };
+		51B81188240A964C00A46386 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B81187240A964C00A46386 /* Strings.swift */; };
+		51B8118B240A978700A46386 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B81189240A978700A46386 /* PickerViewController.swift */; };
+		51B8118C240A978700A46386 /* PickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51B8118A240A978700A46386 /* PickerViewController.xib */; };
+		51B8118E240A99CD00A46386 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B8118D240A99CD00A46386 /* UIImageExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		51B81149240A5A4B00A46386 /* ReusableAttachmentsView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReusableAttachmentsView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		51B8114C240A5A4B00A46386 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		51B8114E240A5A4B00A46386 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		51B8114C240A5A4B00A46386 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		51B8114E240A5A4B00A46386 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../SceneDelegate.swift; sourceTree = "<group>"; };
 		51B81150240A5A4B00A46386 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		51B81153240A5A4B00A46386 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51B81155240A5A4F00A46386 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51B81158240A5A4F00A46386 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51B8115A240A5A4F00A46386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51B81161240A5C6400A46386 /* AttachmentsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentsListView.swift; sourceTree = "<group>"; };
+		51B81163240A5C8200A46386 /* AttachmentsListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AttachmentsListView.xib; sourceTree = "<group>"; };
+		51B81166240A5CF500A46386 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		51B8116E240A60E200A46386 /* ThumbnailCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ThumbnailCollectionViewCell.xib; path = ../ThumbnailCollectionViewCell.xib; sourceTree = "<group>"; };
+		51B8116F240A60E200A46386 /* ThumbnailCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThumbnailCollectionViewCell.swift; path = ../ThumbnailCollectionViewCell.swift; sourceTree = "<group>"; };
+		51B81174240A62FE00A46386 /* AddAttachmentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAttachmentCollectionViewCell.swift; sourceTree = "<group>"; };
+		51B81175240A62FE00A46386 /* AddAttachmentCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddAttachmentCollectionViewCell.xib; sourceTree = "<group>"; };
+		51B81179240A67E000A46386 /* UICollectionViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtension.swift; sourceTree = "<group>"; };
+		51B8117B240A680300A46386 /* NSObjectExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectExtension.swift; sourceTree = "<group>"; };
+		51B8117D240A69E300A46386 /* Attachment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attachment.swift; sourceTree = "<group>"; };
+		51B81187240A964C00A46386 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		51B81189240A978700A46386 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		51B8118A240A978700A46386 /* PickerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PickerViewController.xib; sourceTree = "<group>"; };
+		51B8118D240A99CD00A46386 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +83,109 @@
 		51B8114B240A5A4B00A46386 /* ReusableAttachmentsView */ = {
 			isa = PBXGroup;
 			children = (
-				51B8114C240A5A4B00A46386 /* AppDelegate.swift */,
-				51B8114E240A5A4B00A46386 /* SceneDelegate.swift */,
-				51B81150240A5A4B00A46386 /* ViewController.swift */,
 				51B81152240A5A4B00A46386 /* Main.storyboard */,
-				51B81155240A5A4F00A46386 /* Assets.xcassets */,
+				51B81181240A6A2400A46386 /* model */,
+				51B81180240A6A1300A46386 /* controller */,
+				51B81186240A963900A46386 /* helpers */,
+				51B81160240A5B2800A46386 /* Supporting Files */,
 				51B81157240A5A4F00A46386 /* LaunchScreen.storyboard */,
 				51B8115A240A5A4F00A46386 /* Info.plist */,
 			);
 			path = ReusableAttachmentsView;
+			sourceTree = "<group>";
+		};
+		51B81160240A5B2800A46386 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51B81155240A5A4F00A46386 /* Assets.xcassets */,
+				51B8114C240A5A4B00A46386 /* AppDelegate.swift */,
+				51B8114E240A5A4B00A46386 /* SceneDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51B81165240A5CA400A46386 /* attachments-carousel */ = {
+			isa = PBXGroup;
+			children = (
+				51B8116D240A60E200A46386 /* collection-view-cells */,
+				51B81161240A5C6400A46386 /* AttachmentsListView.swift */,
+				51B81163240A5C8200A46386 /* AttachmentsListView.xib */,
+			);
+			path = "attachments-carousel";
+			sourceTree = "<group>";
+		};
+		51B8116D240A60E200A46386 /* collection-view-cells */ = {
+			isa = PBXGroup;
+			children = (
+				51B81173240A62E000A46386 /* add-attachment-cell */,
+				51B81172240A62D600A46386 /* thumbnail-cell */,
+			);
+			path = "collection-view-cells";
+			sourceTree = "<group>";
+		};
+		51B81172240A62D600A46386 /* thumbnail-cell */ = {
+			isa = PBXGroup;
+			children = (
+				51B8116E240A60E200A46386 /* ThumbnailCollectionViewCell.xib */,
+				51B8116F240A60E200A46386 /* ThumbnailCollectionViewCell.swift */,
+			);
+			path = "thumbnail-cell";
+			sourceTree = "<group>";
+		};
+		51B81173240A62E000A46386 /* add-attachment-cell */ = {
+			isa = PBXGroup;
+			children = (
+				51B81174240A62FE00A46386 /* AddAttachmentCollectionViewCell.swift */,
+				51B81175240A62FE00A46386 /* AddAttachmentCollectionViewCell.xib */,
+			);
+			path = "add-attachment-cell";
+			sourceTree = "<group>";
+		};
+		51B81178240A67A400A46386 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				51B81179240A67E000A46386 /* UICollectionViewExtension.swift */,
+				51B8117B240A680300A46386 /* NSObjectExtension.swift */,
+				51B8118D240A99CD00A46386 /* UIImageExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		51B81180240A6A1300A46386 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				51B81150240A5A4B00A46386 /* ViewController.swift */,
+				51B81166240A5CF500A46386 /* ModalViewController.swift */,
+				51B81185240A8BB300A46386 /* picker */,
+				51B81165240A5CA400A46386 /* attachments-carousel */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		51B81181240A6A2400A46386 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				51B8117D240A69E300A46386 /* Attachment.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		51B81185240A8BB300A46386 /* picker */ = {
+			isa = PBXGroup;
+			children = (
+				51B81189240A978700A46386 /* PickerViewController.swift */,
+				51B8118A240A978700A46386 /* PickerViewController.xib */,
+			);
+			path = picker;
+			sourceTree = "<group>";
+		};
+		51B81186240A963900A46386 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				51B81178240A67A400A46386 /* Extensions */,
+				51B81187240A964C00A46386 /* Strings.swift */,
+			);
+			path = helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +246,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51B81159240A5A4F00A46386 /* LaunchScreen.storyboard in Resources */,
+				51B81184240A6BEF00A46386 /* Main.storyboard in Resources */,
 				51B81156240A5A4F00A46386 /* Assets.xcassets in Resources */,
-				51B81154240A5A4B00A46386 /* Main.storyboard in Resources */,
+				51B81170240A60E200A46386 /* ThumbnailCollectionViewCell.xib in Resources */,
+				51B81177240A62FE00A46386 /* AddAttachmentCollectionViewCell.xib in Resources */,
+				51B8118C240A978700A46386 /* PickerViewController.xib in Resources */,
+				51B81164240A5C8200A46386 /* AttachmentsListView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +263,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				51B81151240A5A4B00A46386 /* ViewController.swift in Sources */,
+				51B81188240A964C00A46386 /* Strings.swift in Sources */,
+				51B81167240A5CF500A46386 /* ModalViewController.swift in Sources */,
 				51B8114D240A5A4B00A46386 /* AppDelegate.swift in Sources */,
 				51B8114F240A5A4B00A46386 /* SceneDelegate.swift in Sources */,
+				51B8117E240A69E300A46386 /* Attachment.swift in Sources */,
+				51B8118B240A978700A46386 /* PickerViewController.swift in Sources */,
+				51B8117A240A67E000A46386 /* UICollectionViewExtension.swift in Sources */,
+				51B81162240A5C6400A46386 /* AttachmentsListView.swift in Sources */,
+				51B8118E240A99CD00A46386 /* UIImageExtension.swift in Sources */,
+				51B81176240A62FE00A46386 /* AddAttachmentCollectionViewCell.swift in Sources */,
+				51B8117C240A680300A46386 /* NSObjectExtension.swift in Sources */,
+				51B81171240A60E200A46386 /* ThumbnailCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
