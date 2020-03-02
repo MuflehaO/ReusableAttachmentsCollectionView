@@ -24,6 +24,7 @@ class ModalViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         attachmentsListView.presentingViewController = self
+        attachmentsListView.supportedTypes = [.camera, .gallery] //only images can be added
     }
 
     @IBAction func didTapCancelButton(_ sender: UIBarButtonItem) {

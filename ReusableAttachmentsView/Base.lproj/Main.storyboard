@@ -21,14 +21,14 @@
                                 <color key="textColor" red="0.95667833089999998" green="0.73479217289999998" blue="0.25865018369999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="After" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wZD-bO-j2J">
-                                <rect key="frame" x="349.5" y="415.5" width="69" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Post-transformation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wZD-bO-j2J">
+                                <rect key="frame" x="246.5" y="415.5" width="275" height="36"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
                                 <color key="textColor" red="0.95667833089999998" green="0.73479217289999998" blue="0.25865018369999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Before" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9s2-Ve-07B">
-                                <rect key="frame" x="339" y="176.5" width="90" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pre-transformation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9s2-Ve-07B">
+                                <rect key="frame" x="254.5" y="176.5" width="259.5" height="36"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
                                 <color key="textColor" red="0.95667833089999998" green="0.73479217289999998" blue="0.25865018369999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -109,14 +109,55 @@
                                     <constraint firstAttribute="height" constant="150" id="OxT-BU-p4T"/>
                                 </constraints>
                             </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="3U0-FQ-GMu">
+                                <rect key="frame" x="10" y="306" width="423" height="34"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Room Dimensions: " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jGo-Cm-Xl2">
+                                        <rect key="frame" x="0.0" y="0.0" width="201" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <color key="textColor" red="0.95667833089999998" green="0.73479217289999998" blue="0.25865018369999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Add room dimensions here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="u8A-rA-uFP">
+                                        <rect key="frame" x="222" y="0.0" width="201" height="34"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="textColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="l9B-CB-ODx">
+                                <rect key="frame" x="10" y="360" width="423" height="34"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time Estimate:" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4S0-pn-e42">
+                                        <rect key="frame" x="0.0" y="0.0" width="202.5" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <color key="textColor" red="0.95667833089999998" green="0.73479217289999998" blue="0.25865018369999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Add time estimate here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OD4-d6-X8q">
+                                        <rect key="frame" x="220.5" y="0.0" width="202.5" height="34"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="textColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="C2S-8J-7Oy" firstAttribute="trailing" secondItem="NNr-1b-XoQ" secondAttribute="trailing" id="1dM-ky-AOv"/>
                             <constraint firstItem="C2S-8J-7Oy" firstAttribute="leading" secondItem="NNr-1b-XoQ" secondAttribute="leading" id="3pN-DT-12E"/>
+                            <constraint firstItem="3U0-FQ-GMu" firstAttribute="leading" secondItem="rIv-Ke-Goi" secondAttribute="leading" id="4r2-Ae-vHc"/>
+                            <constraint firstItem="l9B-CB-ODx" firstAttribute="leading" secondItem="3U0-FQ-GMu" secondAttribute="leading" id="68H-l7-hch"/>
+                            <constraint firstItem="l9B-CB-ODx" firstAttribute="top" secondItem="3U0-FQ-GMu" secondAttribute="bottom" constant="20" id="FfL-1s-tsA"/>
                             <constraint firstItem="NNr-1b-XoQ" firstAttribute="trailing" secondItem="rIv-Ke-Goi" secondAttribute="trailing" id="T1F-e6-ZAL"/>
+                            <constraint firstItem="3U0-FQ-GMu" firstAttribute="top" secondItem="rIv-Ke-Goi" secondAttribute="bottom" constant="50" id="aFm-F4-LHa"/>
                             <constraint firstItem="rIv-Ke-Goi" firstAttribute="top" secondItem="C2S-8J-7Oy" secondAttribute="bottom" constant="50" id="c05-JF-veH"/>
                             <constraint firstItem="C2S-8J-7Oy" firstAttribute="top" secondItem="NNr-1b-XoQ" secondAttribute="top" id="rh2-fU-hXy"/>
+                            <constraint firstItem="l9B-CB-ODx" firstAttribute="trailing" secondItem="3U0-FQ-GMu" secondAttribute="trailing" id="vI2-Nz-hiZ"/>
                             <constraint firstItem="rIv-Ke-Goi" firstAttribute="leading" secondItem="NNr-1b-XoQ" secondAttribute="leading" constant="10" id="w9g-xl-OG3"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="NNr-1b-XoQ"/>
@@ -127,7 +168,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Ia-e0-W2r" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1097" y="123"/>
+            <point key="canvasLocation" x="1096.875" y="122.46093749999999"/>
         </scene>
     </scenes>
 </document>

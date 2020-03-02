@@ -117,7 +117,9 @@ extension AttachmentsListView: UICollectionViewDataSource, UICollectionViewDeleg
             return cell
         } else {
             let cell: AddAttachmentCollectionViewCell = collectionView.dequeReusableCell(forIndexPath: indexPath)
-            cell.configureCell(multipleAttachementsType: true)
+            if supportedTypes.contains(.file) {
+                cell.configureCell(multipleAttachementsType: true)
+            }
             cell.addImageButton.addTarget(self, action: #selector(didTapAddAttachmentsButtonInCell), for: .touchUpInside)
             return cell
         }
